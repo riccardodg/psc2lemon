@@ -8,4 +8,22 @@ Scripts and stuff for converting Parole Simple Clips (names only) to LOD
 * PAPER http://www.semantic-web-journal.net/system/files/swj823_0.pdf
 
 # licenses
-All data and software are combinally distributed under Creative Commons Attribution-ShareAlike 4.0 International Public License and 
+All data and software are combinally distributed under the Creative Commons Attribution-ShareAlike 4.0 International Public License and the GNU AFFERO GENERAL PUBLIC LICENSE Version 3
+
+# how to cite
+Please use the following citation:
+
+@article{DelGrattaEtAl2015,
+  author    = {Riccardo Del Gratta and
+               Francesca Frontini and
+               Anas Fahad Khan and
+               Monica Monachini},
+  title     = {Converting the {PAROLE} {SIMPLE} {CLIPS} lexicon into {RDF} with lemon},
+  journal   = {Semantic Web},
+  volume    = {6},
+  number    = {4},
+  pages     = {387--392},
+  year      = {2015},
+  url       = {https://doi.org/10.3233/SW-140168},
+  doi       = {10.3233/SW-140168}
+}
