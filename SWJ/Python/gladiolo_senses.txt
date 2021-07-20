@@ -1,0 +1,52 @@
+<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.languagelibrary.eu/owl/simple/inds/f/f6c/USem1616gladiolo -->
+
+    <owl:NamedIndividual rdf:about="&f6c;USem1616gladiolo"/>
+    
+
+
+    <!-- http://www.languagelibrary.eu/owl/simple/inds/f/f6c/USem1617gladiolo -->
+
+    <owl:NamedIndividual rdf:about="&f6c;USem1617gladiolo"/>
+    
+
+
+    <!-- http://www.languagelibrary.eu/owl/simple/lemonsource/f/f6c/gladiolo -->
+
+    <owl:NamedIndividual rdf:about="&f6c2;gladiolo">
+        <rdf:type rdf:resource="&lemon;Form"/>
+        <rdf:type rdf:resource="&lemon;LexicalEntry"/>
+        <lemon:writtenRep xml:lang="it">gladiolo</lemon:writtenRep>
+        <lemon:canonicalForm rdf:resource="&f6c2;gladiolo"/>
+        <lemon:sense rdf:resource="&f6c2;gladiolo#sense1"/>
+        <lemon:sense rdf:resource="&f6c2;gladiolo#sense2"/>
+        <lexinfo:partOfSpeech rdf:resource="&lexinfo;noun"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.languagelibrary.eu/owl/simple/lemonsource/f/f6c/gladiolo#sense1 -->
+
+    <owl:NamedIndividual rdf:about="&f6c2;gladiolo#sense1">
+        <rdf:type rdf:resource="&lemon;LexicalSense"/>
+        <lemon:reference rdf:resource="&f6c;USem1616gladiolo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.languagelibrary.eu/owl/simple/lemonsource/f/f6c/gladiolo#sense2 -->
+
+    <owl:NamedIndividual rdf:about="&f6c2;gladiolo#sense2">
+        <rdf:type rdf:resource="&lemon;LexicalSense"/>
+        <lemon:reference rdf:resource="&f6c;USem1617gladiolo"/>
+    </owl:NamedIndividual>

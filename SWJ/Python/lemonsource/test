@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <title>lemon source</title>
+        <link type="text/css" rel="stylesheet" href="/lemonsource/css/Aristo.css"></link>
+        <link type="text/css" rel="stylesheet" href="/lemonsource/css/source.css"></link>
+        <script type="text/javascript" src="/lemonsource/js/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="/lemonsource/js/jquery-ui-1.8.16.custom.min.js"></script>
+        <script type="text/javascript" src="/lemonsource/js/source.js"></script>
+        <script type="text/javascript" src="/lemonsource/js/md5.js"></script>
+      </head>
+      <body>
+        <div class="maincontainer">
+          <div class="maincolumn">
+            <div width="100%" class="header">
+              <div style="text-align:right;">
+                <form style="display:inline;" action="/lemonsource/Special:Search">
+                  <input width="15em" name="query" type="text" class="search"></input>
+                </form>
+                &nbsp;&nbsp;&nbsp;
+                <select class="lang" id="lang" onchange="window.location='?lang='+$('#lang').val()">
+                  <option selected="selected" value="en">English</option>
+                  <option value="de">name</option>
+                </select>
+                <button class="menuitem" onclick="call('login')">Log in</button>
+              </div>
+            </div>
+            <div id="main">
+              <span>
+    <div class="tabbedFrame ui-tabs ui-widget ui-widget-content ui-corner-all">
+      <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+        <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="?action=Entry">Entry</a></li>
+        <li class="ui-state-default ui-corner-top"><a href="?action=Edit">Edit</a></li>
+        <li class="ui-state-default ui-corner-top"><a href="?action=Talk">Talk</a></li>
+        <li class="ui-state-default ui-corner-top"><a href="?action=Changes">Changes</a></li>
+      </ul>
+      <div class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+        <div class="border_right">
+          <div class="horizontal spacing" id="n7827826560963630501" xmlns="http://www.w3.org/1999/xhtml">
+            <a href="http://monnetproject.deri.ie/lemonsource/wordnet/bank-noun.rdf"><img class="imageButton" src="/lemonsource/images/rdf_flyer.png"></img></a>
+            <a href="http://monnetproject.deri.ie/lemonsource/wordnet/bank-noun.ttl"><img class="imageButton" src="/lemonsource/images/icon_turtle.gif"></img></a>
+          </div>
+        </div>
+        <div class="vertical">
+          <span class="label entry_title">bank</span>
+        </div>
+        <div class="vertical">
+          <span class="label sub_title">Member of Lexica</span>
+          <span class="lexica_link"><br></br><a href="http://monnetproject.deri.ie/lemonsource/wordnet">/wordnet</a></span>
+        </div>
+        <div class="vertical">
+          <span class="label sub_title">Properties</span>
+          <table class="properties_table">
+            <tr>
+                  <td>
+                    <a href="http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech">partOfSpeech</a>
+                  </td>
+                  <td>
+                    <a href="http://www.lexinfo.net/ontology/2.0/lexinfo#noun">noun</a>
+                  </td>
+                </tr>
+          </table>
+        </div>
+        <div class="vertical">
+          <span class="label sub_title">Forms</span>
+          <ul>
+            <li><i>(Canonical) </i>bank</li>
+            
+            
+          </ul>
+        </div>
+        <div class="vertical">
+          <span class="label sub_title">Senses</span>
+          <ol>
+            <li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-8">http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-8</a></div><span></span></li><li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-3">http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-3</a></div><span></span></li><li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-7">http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-7</a></div><span></span></li><li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-10">http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-10</a></div><span></span></li><li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-4">http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-4</a></div><span></span></li><li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-2">http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-2</a></div><span></span></li><li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-9">http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-9</a></div><span></span></li><li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-5">http://www.w3.org/2006/03/wn/wn20/instances/synset-bank-noun-5</a></div><span></span></li><li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-savings_bank-noun-2">http://www.w3.org/2006/03/wn/wn20/instances/synset-savings_bank-noun-2</a></div><span></span></li><li> <span></span><div>Ontological description: <a href="http://www.w3.org/2006/03/wn/wn20/instances/synset-depository_financial_institution-noun-1">http://www.w3.org/2006/03/wn/wn20/instances/synset-depository_financial_institution-noun-1</a></div><span></span></li>
+          </ol>
+          <span class="label sub_title">derivedForm</span><ul><li><a href="http://monnetproject.deri.ie/lemonsource/wordnet/bank-verb">/bank-verb</a></li></ul>
+        </div></div></div></span>
+            </div>
+          </div>
+          <div class="leftcolumn">
+            <img src="/lemonsource/images/logo.png"></img>
+            <div>
+              <div class="menuitem"><a class="menuitem" href="/lemonsource">Home</a></div>
+              <div class="menuitem"><a class="menuitem disabled_link">Generate (log-in required)</a></div><div class="menuitem"><a class="menuitem disabled_link">Import</a></div>
+              <div class="menuitem" id="help"><a class="menuitem" href="?help=on">Help: off</a></div>
+              <div class="menuitem"><a class="menuitem" href="/lemonsource/Special:PublicLexica">Public Lexicon</a></div>
+              <div class="menuitem"><a class="menuitem disabled_link">My Lexicon</a></div>
+              <div class="menuitem" onclick="hideShowDumps()">Dumps</div>
+              <div style="display:none;padding-left:10px;" id="dumps">
+                <div class="menuitem"><a class="menuitem" href="/lemonsource/Special:Dump/wiktionary.tar.bz2">Wiktionary</a></div>
+                <div class="menuitem"><a class="menuitem" href="/lemonsource/Special:Dump/wordnet.zip">WordNet</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span></span>
+        <div style="visibility:hidden;float:left;" id="landing_area">
+        </div>
+      </body>
+    </html>

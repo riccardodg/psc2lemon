@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix simple: <http://www.languagelibrary.eu/owl/simple/SimpleOntology#> .
+@prefix sense: <http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix dcr: <http://www.isocat.org/ns/dcr.rdf#> .
+@prefix daml: <http://www.daml.org/2001/03/daml+oil#> .
+@prefix psc: <http://www.languagelibrary.eu/owl/simple/psc/pscLemon#> .
+@prefix lemon: <http://www.monnet-project.eu/lemon#> .
+
+<http://www.languagelibrary.eu/owl/simple/SimpleOntology#>
+    a owl:Ontology ;
+    owl:imports <http://www.languagelibrary.eu/owl/simple/SimpleOntology#> .
+
+simple:PolysemyPlant-Fruit
+    a rdf:Property ;
+    rdfs:SubPropertyOf lemon:senseRelation .
+
+simple:PolysemyVegetalEntity-Colour
+    a rdf:Property ;
+    rdfs:SubPropertyOf lemon:senseRelation .
+
+<http://www.languagelibrary.eu/owl/simple/psc#limone>
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm [
+        lemon:writtenRep "limone"@it ;
+        a lemon:Form
+    ] ;
+    lemon:sense <http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_1>, <http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_2>, <http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_3> ;
+    a lemon:LexicalEntry .
+
+<http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_1>
+    simple:PolysemyPlant-Fruit <http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_3> ;
+    simple:PolysemyVegetalEntity-Colour <http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_2> ;
+    lemon:narrower <http://www.languagelibrary.eu/owl/simple/psc/2/213/frutto#frutto_1> ;
+    lemon:reference <http://www.languagelibrary.eu/owl/simple/inds/2/299/USem1450limone> ;
+    a lemon:LexicalSense .
+
+<http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_2>
+    simple:PolysemyVegetalEntity-Colour <http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_1> ;
+    lemon:narrower <http://www.languagelibrary.eu/owl/simple/psc/a/a50/colore#colore_1> ;
+    lemon:reference <http://www.languagelibrary.eu/owl/simple/inds/2/299/USem76884limone> ;
+    a lemon:LexicalSense .
+
+<http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_3>
+    simple:PolysemyPlant-Fruit <http://www.languagelibrary.eu/owl/simple/psc/2/299/limone#limone_1> ;
+    lemon:narrower <http://www.languagelibrary.eu/owl/simple/psc/3/338/albero#albero_1> ;
+    lemon:reference <http://www.languagelibrary.eu/owl/simple/inds/2/299/USemD2244limone> ;
+    a lemon:LexicalSense .
+

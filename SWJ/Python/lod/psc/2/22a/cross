@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY simple "http://www.languagelibrary.eu/owl/simple/SimpleOntology#" > <!-- for the ontology -->
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY daml "http://www.daml.org/2001/03/daml+oil#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY dcr "http://www.isocat.org/ns/dcr.rdf#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY lemon "http://www.monnet-project.eu/lemon#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY lexinfo "http://www.lexinfo.net/ontology/2.0/lexinfo#" >
+    <!ENTITY turtle "http://www.semanticweb.org/owl/owlapi/turtle#" >	
+    <!ENTITY sense "http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries" > <!-- for single individuals -->
+    <!ENTITY singlepsc "http://www.languagelibrary.eu/owl/simple/psc/" > <!-- for lemon entries -->
+    <!ENTITY singleind "http://www.languagelibrary.eu/owl/simple/inds/"> <!-- for simple entries -->	
+]>
+
+<rdf:RDF xmlns="http://www.semanticweb.org/owl/owlapi/turtle#"
+     xml:base="http://www.languagelibrary.eu/owl/simple/psc"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:simple="http://www.languagelibrary.eu/owl/simple/SimpleOntology#"
+     xmlns:sense="http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries#"	
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dcr="http://www.isocat.org/ns/dcr.rdf#"
+     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:psc="http://www.languagelibrary.eu/owl/simple/psc/pscLemon#"
+     xmlns:lemon="http://www.monnet-project.eu/lemon#">
+
+		<lemon:entry>
+			<lemon:LexicalEntry rdf:about="&singlepsc;2/22a/cross">
+				<lemon:canonicalForm>
+					<lemon:Form>
+						<lemon:writtenRep xml:lang="it">cross</lemon:writtenRep>
+					</lemon:Form>
+				</lemon:canonicalForm>
+				<lexinfo:partOfSpeech rdf:resource="&lexinfo;noun"/>
+				<lemon:sense>
+					<lemon:LexicalSense rdf:about="&singlepsc;2/22a/cross_sense1">
+						<lemon:reference rdf:resource="&singleind;2/22a/USem73694cross"/>
+					</lemon:LexicalSense>
+				</lemon:sense>
+			</lemon:LexicalEntry>
+		</lemon:entry>
+</rdf:RDF>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY simple "http://www.languagelibrary.eu/owl/simple/SimpleOntology.owl#" > <!-- for the ontology -->
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY daml "http://www.daml.org/2001/03/daml+oil#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY dcr "http://www.isocat.org/ns/dcr.rdf#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY lemon "http://www.monnet-project.eu/lemon#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY lexinfo "http://www.lexinfo.net/ontology/2.0/lexinfo#" >
+    <!ENTITY inds "http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries.owl#" > <!-- for all individuals -->
+]>
+
+<rdf:RDF xmlns="http://www.semanticweb.org/owl/owlapi/turtle#"
+     xml:base="http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:simple="http://www.languagelibrary.eu/owl/simple/SimpleOntology.owl#"
+     xmlns:inds="http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries.owl#"	
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dcr="http://www.isocat.org/ns/dcr.rdf#"
+     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:lemon="http://www.monnet-project.eu/lemon#">
+    <owl:Ontology rdf:about="http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries.owl">
+        <owl:imports rdf:resource="http://www.languagelibrary.eu/owl/simple/SimpleOntology.owl"/>
+    </owl:Ontology>
+	<owl:NamedIndividual rdf:about="&inds;USem1617gladiolo">
+		<rdfs:label> gladiolo_as_Flower</rdfs:label>
+		<rdfs:comment> The lemma of USem1617gladiolo is gladiolo</rdfs:comment>
+		<rdf:type rdf:resource="&simple;Flower"/>
+			<simple:hasIsa rdf:resource="&inds;USemD2389fiore"/>
+			<simple:hasProducedby rdf:resource="&inds;USem1616gladiolo"/>
+			<simple:hasPolysemyPlant-Flower rdf:resource="&inds;USem1616gladiolo"/>
+	</owl:NamedIndividual>
+
+	<owl:NamedIndividual rdf:about="&inds;USem1616gladiolo">
+		<rdfs:label> gladiolo_as_Plant</rdfs:label>
+		<rdfs:comment> The lemma of USem1616gladiolo is gladiolo</rdfs:comment>
+		<rdf:type rdf:resource="&simple;Plant"/>
+		<simple:hasIsa rdf:resource="&inds;USem1428pianta"/>
+		<simple:hasProduces rdf:resource="&inds;USem1617gladiolo"/>
+		<simple:hasPolysemyPlant-Flower rdf:resource="&inds;USem1617gladiolo"/>
+	</owl:NamedIndividual>
+</rdf:RDF>
+
+    

@@ -1,0 +1,6 @@
+gladiolo,USem1616gladiolo,Plant,Isa,Formal,pianta,USem1428pianta,VegetalEntity
+gladiolo,USem1616gladiolo,Plant,Produces,Constitutive,gladiolo,USem1617gladiolo,Flower
+gladiolo,USem1616gladiolo,Plant,PolysemyPlant-Flower,Polysemy,gladiolo,USem1617gladiolo,Flower
+gladiolo,USem1617gladiolo,Flower,Isa,Formal,fiore,USemD2389fiore,VegetalEntity
+gladiolo,USem1617gladiolo,Flower,Producedby,Constitutive,gladiolo,USem1616gladiolo,Plant
+gladiolo,USem1617gladiolo,Flower,PolysemyPlant-Flower,Polysemy,gladiolo,USem1616gladiolo,Plant

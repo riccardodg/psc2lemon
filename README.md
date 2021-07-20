@@ -4,6 +4,7 @@ This repository contains data and scripts for converting the names of PAROLE SIM
 The conversion process lasted for about an year and produced a paper published by Semantic Web Journal.
 Please don't blame the authors for missing files, but, in such cases, contact either riccardo[dot]delgratta[at]gmail[dot]com or riccardo[dot]delgratta[at]ilc[dot]cnr[dot]it
 
+PS: also contact contact either riccardo[dot]delgratta[at]gmail[dot]com or riccardo[dot]delgratta[at]ilc[dot]cnr[dot]it for explanations, when needed.
 
 # availability
 * CLARIN https://dspace-clarin-it.ilc.cnr.it/repository/xmlui/handle/20.500.11752/ILC-558
